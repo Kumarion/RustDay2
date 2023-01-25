@@ -1,3 +1,7 @@
+mod ownership;
+mod references;
+
 fn main() {
-    println!("Hello, world!");
+    // ownership::ownership();
+    references::references();
 }
