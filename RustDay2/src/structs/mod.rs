@@ -5,12 +5,8 @@ use rand::Rng;
 use std::io::{Write, BufReader, BufRead, ErrorKind};
 use std::fs::File;
 
-mod ownership;
-mod references;
-mod slices;
+mod struct_1;
 
 pub fn main() {
-    // ownership::ownership();
-    // references::references();
-    slices::slices();
+    struct_1::struct_1();
 }
