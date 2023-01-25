@@ -5,9 +5,10 @@ use rand::Rng;
 use std::io::{Write, BufReader, BufRead, ErrorKind};
 use std::fs::File;
 
-mod ownership_folder;
+mod ownership;
+mod references;
 
-fn main() {
-    // Run our ownership folder
-    ownership_folder::main();
+pub fn main() {
+    // ownership::ownership();
+    references::references();
 }

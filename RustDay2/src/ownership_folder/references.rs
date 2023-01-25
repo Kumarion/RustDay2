@@ -1,3 +1,4 @@
+#![allow(unused)]
 // References just makes referneces to variables
 // If you want to use a variable WITHOUT taking ownership, use references
 
